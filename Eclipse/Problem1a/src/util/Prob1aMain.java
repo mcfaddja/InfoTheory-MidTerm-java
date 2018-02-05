@@ -7,7 +7,7 @@ package util;
  * 
  * Utility class to launch the running of the code for prob1a.
  */
-public class Prob1aLauncher {
+public class Prob1aMain {
 
     private static String myFileNameIN;
     
