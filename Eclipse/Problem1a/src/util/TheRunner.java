@@ -11,31 +11,39 @@ public class TheRunner {
     
     
 // CLASS VARIABLES
-    
+    /** Name of alphabet file. */
     private final String myFileNameIN;
     
  
 // CONSTRUCTOR(S)
     
     /**
-     * Appropriately runs the code for this project using the specified path and file name.
+     * Appropriately runs the code for this project using the specified 
+     * path and file name.
      * 
      * @param theFileNameIN The path and file name of the text file to analyze.
      */
     public TheRunner(final String theFileNameIN) {
         myFileNameIN = theFileNameIN;
         
-        printer(myFileNameIN);
+        testME(myFileNameIN);
     }
 
     
 // PUBLIC METHODS
-    
+    /**
+     * Printing method for testing purposes.
+     * 
+     * @param theString The file name of the text file to analyze.
+     */
+    public void printer(final String theString) {
+        System.out.println("This is printed from outside TheRunner" + theString);
+    }
     
  
 // PRIVATE HELPERS
     
-    private void printer(final String theString) {
-        System.out.print(theString);
+    private void testME(final String theString) {
+        this.printer("This is printed from inside TheRunner" + theString);
     }
 }
