@@ -5,9 +5,9 @@ package util;
  * @author Jonathan McFadden (mcfaddja@uw.edu)
  * @version 1.0
  * 
- * Utility class to run the code for Problem1a.
+ * Utility class to run the code for Problem1b.
  */
-public class TheProblem1aRunner {
+public class TheProblem1bRunner {
     
     
 // CLASS VARIABLES
@@ -23,7 +23,7 @@ public class TheProblem1aRunner {
      * 
      * @param theFileNameIN The path and file name of the text file to analyze.
      */
-    public TheProblem1aRunner(final String theFileNameIN) {
+    public TheProblem1bRunner(final String theFileNameIN) {
         myFileNameIN = theFileNameIN;
         
         testME(myFileNameIN);
